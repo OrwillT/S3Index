@@ -1,0 +1,10 @@
+{
+  "name": "s3index",
+  "version": "0.1.0",
+  "description": "AWS S3 Index built with Vue and powered by Cloudflare Workers™",
+  "main": "lib/main.js",
+  "repository": "git@github.com:OrwillT/S3Index.git",
+  "author": "Orwill Q. Song <orwill@anislet.dev>",
+  "license": "MIT",
+  "private": true
+}
