@@ -6,5 +6,11 @@
   "repository": "git@github.com:OrwillT/S3Index.git",
   "author": "Orwill Q. Song <orwill@anislet.dev>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "aws4fetch": "^1.0.13",
+    "eslint": "^7.14.0",
+    "eslint-plugin-vue": "^7.1.0",
+    "xml2js": "^0.4.23"
+  }
 }
