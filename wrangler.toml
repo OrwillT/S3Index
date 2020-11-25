@@ -1,0 +1,5 @@
+name = "s3index"
+type = "webpack"
+workers_dev = true
+account_id = ""
+zone_id = ""
