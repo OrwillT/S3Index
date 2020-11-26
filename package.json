@@ -1,20 +1,19 @@
 {
   "name": "s3index",
   "version": "0.1.0",
-  "description": "AWS S3 Index built with Vue and powered by Cloudflare Workers™",
-  "main": "lib/main.js",
-  "repository": "git@github.com:OrwillT/S3Index.git",
-  "author": "Orwill Q. Song <orwill@anislet.dev>",
-  "license": "MIT",
   "private": true,
+  "description": "AWS S3 Index built with Vue and powered by Cloudflare Workers™",
+  "author": "Orwill Q. Song <orwill@anislet.dev>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "main": "lib/main.js",
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vuetify": "^2.2.11"
   },
   "devDependencies": {
     "@cloudflare/wrangler": "^1.12.2",
@@ -26,7 +25,11 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.14.0",
     "eslint-plugin-vue": "^7.1.0",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-vuetify": "~2.0.7",
     "vue-template-compiler": "^2.6.12",
+    "vuetify-loader": "^1.3.0",
     "xml2js": "^0.4.23"
   },
   "eslintConfig": {
@@ -47,5 +50,7 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "license": "MIT",
+  "repository": "git@github.com:OrwillT/S3Index.git"
 }
