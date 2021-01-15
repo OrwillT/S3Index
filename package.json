@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@cloudflare/wrangler": "^1.12.2",
+    "@cloudflare/wrangler": "^1.13.0",
     "aws4fetch": "^1.0.13",
     "eslint": "^7.14.0",
     "eslint-plugin-vue": "^7.3.0",
